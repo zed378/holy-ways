@@ -1,24 +1,65 @@
-import logo from './logo.svg';
-import './App.css';
+// import context
+import { useContext } from "react";
+import { UserContext } from "./context/UserContext";
+
+// import component
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Nav from "./components/Nav";
+import NavLoggedIn from "./components/NavLoggedIn";
 
 function App() {
+  const [state, dispatch] = useContext(UserContext);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {state.logModal ? (
+        <Login
+          close={() => {
+            dispatch({
+              type: "closeLogModal",
+            });
+          }}
+          move={() => {
+            dispatch({
+              type: "showRegModal",
+            });
+          }}
+        />
+      ) : (
+        <></>
+      )}
+
+      {state.regModal ? (
+        <Register
+          close={() => {
+            dispatch({
+              type: "closeRegModal",
+            });
+          }}
+          move={() => {
+            dispatch({
+              type: "showLogModal",
+            });
+          }}
+        />
+      ) : (
+        <></>
+      )}
+
+      {state.isLogin ? (
+        <NavLoggedIn />
+      ) : (
+        <Nav
+          logBtn={() => {
+            dispatch({ type: "showLogModal" });
+          }}
+          regBtn={() => {
+            dispatch({ type: "showRegModal" });
+          }}
+        />
+      )}
+    </>
   );
 }
 

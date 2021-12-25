@@ -1,0 +1,163 @@
+.flood {
+  position: absolute;
+  top: 250px;
+  right: 0;
+}
+
+.forest {
+  position: absolute;
+  top: 800px;
+}
+
+.flood > img {
+  height: 900px;
+}
+
+.forest > img {
+  height: 900px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .flood {
+    position: absolute;
+    top: 250px;
+    right: 0;
+  }
+
+  .forest {
+    position: absolute;
+    top: 650px;
+  }
+
+  .flood > img {
+    height: 600px;
+  }
+
+  .forest > img {
+    height: 650px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .flood {
+    position: absolute;
+    top: 175px;
+    right: 0;
+  }
+
+  .forest {
+    position: absolute;
+    top: 550px;
+  }
+
+  .flood > img {
+    height: 500px;
+  }
+
+  .forest > img {
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .flood {
+    position: absolute;
+    top: 200px;
+    right: 0;
+  }
+
+  .forest {
+    position: absolute;
+    top: 575px;
+  }
+
+  .flood > img {
+    height: 500px;
+  }
+
+  .forest > img {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .flood {
+    position: absolute;
+    top: 225px;
+    right: 0;
+  }
+
+  .forest {
+    position: absolute;
+    top: 550px;
+  }
+
+  .flood > img {
+    height: 425px;
+  }
+
+  .forest > img {
+    height: 475px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flood {
+    position: absolute;
+    top: 200px;
+    right: 0;
+  }
+
+  .forest {
+    position: absolute;
+    top: 475px;
+  }
+
+  .flood > img {
+    height: 350px;
+  }
+
+  .forest > img {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .flood {
+    display: contents;
+  }
+
+  .flood > img {
+    width: 480px;
+    height: auto;
+  }
+
+  .forest {
+    display: contents;
+  }
+
+  .forest > img {
+    width: 480px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .flood {
+    display: contents;
+  }
+
+  .flood > img {
+    width: 360px;
+    height: auto;
+  }
+
+  .forest {
+    display: contents;
+  }
+
+  .forest > img {
+    width: 360px;
+    height: auto;
+  }
+}

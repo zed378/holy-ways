@@ -1,0 +1,594 @@
+.profileDesc {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 100px;
+}
+
+.profileInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profileWrapper {
+  display: inline-block;
+  position: relative;
+  width: 225px;
+  height: 277px;
+  overflow: hidden;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+.info > h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #c32424;
+  font-size: 28px;
+}
+
+.info > p {
+  color: #616161;
+  font-size: 1.5rem;
+  margin: 8px 0 20px 0;
+}
+
+.history {
+  width: 35%;
+}
+
+.historyDonation {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 30px;
+  background-color: white;
+}
+
+.historyDonation > p {
+  font-family: avenir;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.donation {
+  color: #974a4a;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.status {
+  padding: 0.5rem 4rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 1366px) {
+  .profileDesc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 30px 80px;
+    margin: 0;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .info > h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #c32424;
+    font-size: 1.25rem;
+  }
+
+  .info > p {
+    color: #616161;
+    font-size: 1rem;
+    margin: 8px 0 15px 0;
+  }
+
+  .history {
+    width: 40%;
+  }
+
+  .historyDonation {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    background-color: white;
+  }
+
+  .historyDonation > p {
+    font-family: avenir;
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .donation {
+    color: #974a4a;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .status {
+    padding: 0.5rem 4rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .profileDesc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    margin: 0;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .info > h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #c32424;
+    font-size: 1.25rem;
+  }
+
+  .info > p {
+    color: #616161;
+    font-size: 1rem;
+    margin: 8px 0 15px 0;
+  }
+
+  .history {
+    width: 50%;
+  }
+
+  .historyDonation {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    background-color: white;
+  }
+
+  .historyDonation > p {
+    font-family: avenir;
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .donation {
+    color: #974a4a;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .status {
+    padding: 0.5rem 4rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .profileDesc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    margin: 0;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .info > h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #c32424;
+    font-size: 1.25rem;
+  }
+
+  .info > p {
+    color: #616161;
+    font-size: 1rem;
+    margin: 8px 0 15px 0;
+  }
+
+  .history {
+    width: 50%;
+  }
+
+  .historyDonation {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    background-color: white;
+  }
+
+  .historyDonation > h3 {
+    font-size: 1rem;
+  }
+
+  .historyDonation > p {
+    font-family: avenir;
+    font-size: 0.85rem;
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .donation {
+    color: #974a4a;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .status {
+    padding: 0.5rem 4rem;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profileDesc {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    margin: 0;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .info > h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #c32424;
+    font-size: 1rem;
+  }
+
+  .info > p {
+    color: #616161;
+    font-size: 0.8rem;
+    margin: 8px 0 15px 0;
+  }
+
+  .history {
+    width: 55%;
+  }
+
+  .historyDonation {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    background-color: white;
+  }
+
+  .historyDonation > h3 {
+    font-size: 1rem;
+  }
+
+  .historyDonation > p {
+    font-family: avenir;
+    font-size: 0.85rem;
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .donation {
+    color: #974a4a;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .status {
+    padding: 0.5rem 4rem;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profileDesc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    margin: 0;
+    gap: 50px;
+  }
+
+  .profileInfo {
+    width: 100%;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .info > h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #c32424;
+    font-size: 1.25rem;
+  }
+
+  .info > p {
+    color: #616161;
+    font-size: 1rem;
+    margin: 8px 0 15px 0;
+  }
+
+  .history {
+    width: 100%;
+  }
+
+  .historyDonation {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    background-color: white;
+  }
+
+  .historyDonation > h3 {
+    font-size: 1.25rem;
+  }
+
+  .historyDonation > p {
+    font-family: avenir;
+    font-size: 1rem;
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .donation {
+    color: #974a4a;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .status {
+    padding: 0.5rem 4rem;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .historyDonation > h3 {
+    font-size: 1rem;
+  }
+
+  .historyDonation > p {
+    font-family: avenir;
+    font-size: 0.9rem;
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .donation {
+    color: #974a4a;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .status {
+    padding: 0.5rem 3rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .profileDesc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0;
+    gap: 30px;
+  }
+
+  .profileInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profileWrapper {
+    margin: auto;
+    width: 60%;
+    height: 225px;
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .info > h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #c32424;
+    font-size: 1.25rem;
+  }
+
+  .info > p {
+    color: #616161;
+    font-size: 1rem;
+    margin: 8px 0 15px 0;
+  }
+
+  .history {
+    width: 100%;
+  }
+
+  .historyDonation {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    background-color: white;
+  }
+
+  .historyDonation > h3 {
+    font-size: 1rem;
+  }
+
+  .historyDonation > p {
+    font-family: avenir;
+    font-size: 0.9rem;
+  }
+
+  .total {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .donation {
+    color: #974a4a;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .status {
+    padding: 0.5rem 0;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,289 @@
+.accept {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.acceptList {
+  width: 55%;
+}
+
+.listWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 25px;
+  background: white;
+}
+
+.list > p {
+  font-family: avenir;
+}
+
+.listMoney {
+  font-weight: 900;
+  color: #974a4a;
+}
+
+@media only screen and (max-width: 1366px) {
+  .accept {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .acceptList {
+    width: 65%;
+  }
+
+  .listWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background: white;
+  }
+
+  .list > p {
+    font-family: avenir;
+  }
+
+  .listMoney {
+    font-weight: 900;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .accept {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .acceptList {
+    width: 85%;
+  }
+
+  .listWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background: white;
+  }
+
+  .list > p {
+    font-family: avenir;
+  }
+
+  .listMoney {
+    font-weight: 900;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .accept {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .acceptList {
+    width: 90%;
+  }
+
+  .listWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background: white;
+  }
+
+  .list > p {
+    font-family: avenir;
+  }
+
+  .listMoney {
+    font-weight: 900;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .accept {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .acceptList {
+    width: 90%;
+  }
+
+  .listWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background: white;
+  }
+
+  .list > p {
+    font-family: avenir;
+  }
+
+  .listMoney {
+    font-weight: 900;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .accept {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .acceptList {
+    width: 80%;
+  }
+
+  .listWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background: white;
+  }
+
+  .list > p {
+    font-family: avenir;
+  }
+
+  .listMoney {
+    font-weight: 900;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .accept {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .acceptList {
+    width: 80%;
+  }
+
+  .listWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background: white;
+  }
+
+  .list > h3 {
+    font-size: 1rem;
+  }
+
+  .list > p {
+    font-family: avenir;
+    font-size: 0.9rem;
+  }
+
+  .list > .listMoney {
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #974a4a;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .accept {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .acceptList {
+    width: 85%;
+  }
+
+  .listWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background: white;
+  }
+
+  .list > h3 {
+    font-size: 1rem;
+  }
+
+  .list > p {
+    font-family: avenir;
+    font-size: 0.9rem;
+  }
+
+  .list > .listMoney {
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #974a4a;
+  }
+}

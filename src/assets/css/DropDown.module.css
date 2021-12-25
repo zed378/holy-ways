@@ -1,0 +1,337 @@
+.dropContainer {
+  position: absolute;
+  right: 80px;
+  top: 150px;
+  background: white;
+  width: 295px;
+  height: 300px;
+  z-index: 9;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.triangle {
+  position: absolute;
+  top: -35px;
+  right: 20px;
+  height: 40px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu > div {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  cursor: pointer;
+}
+
+.menu > div > h1 {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .dropContainer {
+    position: absolute;
+    right: 33px;
+    top: 110px;
+    background: white;
+    width: 295px;
+    height: 300px;
+    z-index: 9;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+
+  .triangle {
+    position: absolute;
+    top: -35px;
+    right: 20px;
+    height: 40px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .menu > div {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .menu > div > h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .dropContainer {
+    position: absolute;
+    right: 35px;
+    top: 100px;
+    background: white;
+    width: 225px;
+    height: 200px;
+    z-index: 9;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+
+  .triangle {
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    height: 30px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .menu > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .menu > div > img {
+    height: 30px;
+  }
+
+  .menu > div > h1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dropContainer {
+    position: absolute;
+    right: 35px;
+    top: 90px;
+    background: white;
+    width: 225px;
+    height: 200px;
+    z-index: 9;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+
+  .triangle {
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    height: 30px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .menu > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .menu > div > img {
+    height: 30px;
+  }
+
+  .menu > div > h1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .dropContainer {
+    position: absolute;
+    right: 33px;
+    top: 90px;
+    background: white;
+    width: 225px;
+    height: 200px;
+    z-index: 9;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+
+  .triangle {
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    height: 30px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .menu > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .menu > div > img {
+    height: 30px;
+  }
+
+  .menu > div > h1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .dropContainer {
+    position: absolute;
+    right: 10px;
+    top: 90px;
+    background: white;
+    width: 225px;
+    height: 200px;
+    z-index: 9;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+
+  .triangle {
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    height: 30px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .menu > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .menu > div > img {
+    height: 30px;
+  }
+
+  .menu > div > h1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .dropContainer {
+    position: absolute;
+    right: 10px;
+    top: 90px;
+    background: white;
+    width: 225px;
+    height: 200px;
+    z-index: 9;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+
+  .triangle {
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    height: 30px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .menu > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .menu > div > img {
+    height: 30px;
+  }
+
+  .menu > div > h1 {
+    font-size: 1.25rem;
+  }
+}

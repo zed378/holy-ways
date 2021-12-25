@@ -1,0 +1,312 @@
+.navbarTop {
+  width: 100%;
+  background-color: #c32424;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 100px;
+}
+
+.hollyLogo {
+  max-width: 100px;
+}
+
+.btnGroup {
+  display: flex;
+  gap: 20px;
+}
+
+.btnLogin {
+  background: none;
+  border: none;
+  color: #e8e8e8;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnRegister {
+  background: #e8e8e8;
+  border: none;
+  color: #c32424;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 25px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 50px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .btnGroup {
+    display: flex;
+    gap: 20px;
+  }
+
+  .btnLogin {
+    background: none;
+    border: none;
+    color: #e8e8e8;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .btnRegister {
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 50px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .btnGroup {
+    display: flex;
+    gap: 20px;
+  }
+
+  .btnLogin {
+    background: none;
+    border: none;
+    color: #e8e8e8;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .btnRegister {
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 50px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .btnGroup {
+    display: flex;
+    gap: 20px;
+  }
+
+  .btnLogin {
+    background: none;
+    border: none;
+    color: #e8e8e8;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .btnRegister {
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 50px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .btnGroup {
+    display: flex;
+    gap: 20px;
+  }
+
+  .btnLogin {
+    background: none;
+    border: none;
+    color: #e8e8e8;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .btnRegister {
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 40px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .btnGroup {
+    display: flex;
+    gap: 20px;
+  }
+
+  .btnLogin {
+    background: none;
+    border: none;
+    color: #e8e8e8;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .btnRegister {
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 30px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .btnGroup {
+    display: flex;
+    gap: 20px;
+  }
+
+  .btnLogin {
+    background: none;
+    border: none;
+    color: #e8e8e8;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .btnRegister {
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}

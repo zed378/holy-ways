@@ -1,0 +1,354 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background-color: #c32424;
+  box-sizing: border-box;
+  padding: 30px 100px;
+}
+
+.headBanner {
+  color: #e8e8e8;
+  margin: 80px 0 0 100px;
+  width: 50%;
+}
+
+.headBanner > h1 {
+  font-size: 3.75rem;
+}
+
+.headBanner > p {
+  width: 80%;
+  font-size: 22.5px;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 50px;
+}
+
+.btnDonate {
+  margin-top: 50px;
+  background: #e8e8e8;
+  border: none;
+  color: #c32424;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 60px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1366px) {
+  .header {
+    width: 100%;
+    height: 100vh;
+    background-color: #c32424;
+    box-sizing: border-box;
+    padding: 30px 50px;
+  }
+
+  .headBanner {
+    color: #e8e8e8;
+    margin: 25px 0 0 100px;
+    width: 50%;
+  }
+
+  .headBanner > h1 {
+    font-size: 2.75rem;
+  }
+
+  .headBanner > p {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 50px;
+  }
+
+  .btnDonate {
+    margin-top: 50px;
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 60px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    width: 100%;
+    height: 100%;
+    background-color: #c32424;
+    box-sizing: border-box;
+    padding: 20px 30px 100px 30px;
+  }
+
+  .headBanner {
+    color: #e8e8e8;
+    margin: 50px 0 0 50px;
+    width: 50%;
+  }
+
+  .headBanner > h1 {
+    font-size: 2rem;
+  }
+
+  .headBanner > p {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 50px;
+  }
+
+  .btnDonate {
+    margin-top: 50px;
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 60px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    width: 100%;
+    height: 100%;
+    background-color: #c32424;
+    box-sizing: border-box;
+    padding: 20px 30px 100px 30px;
+  }
+
+  .headBanner {
+    color: #e8e8e8;
+    margin: 30px 0 0 50px;
+    width: 50%;
+  }
+
+  .headBanner > h1 {
+    font-size: 2rem;
+  }
+
+  .headBanner > p {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 50px;
+  }
+
+  .btnDonate {
+    margin-top: 50px;
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 60px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 100%;
+    background-color: #c32424;
+    box-sizing: border-box;
+    padding: 20px 30px 100px 30px;
+  }
+
+  .headBanner {
+    color: #e8e8e8;
+    margin: 20px 0 0 50px;
+    width: 55%;
+  }
+
+  .headBanner > h1 {
+    font-size: 1.75rem;
+  }
+
+  .headBanner > p {
+    width: 80%;
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 50px;
+  }
+
+  .btnDonate {
+    margin-top: 50px;
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 60px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+    height: 100%;
+    background-color: #c32424;
+    box-sizing: border-box;
+    padding: 20px 30px 50px 30px;
+  }
+
+  .headBanner {
+    color: #e8e8e8;
+    margin-left: 30px;
+    width: 55%;
+  }
+
+  .headBanner > h1 {
+    font-size: 1.5rem;
+  }
+
+  .headBanner > p {
+    width: 80%;
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 30px;
+  }
+
+  .btnDonate {
+    margin-top: 30px;
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 60px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    width: 100%;
+    height: 100%;
+    background-color: #c32424;
+  }
+
+  .headBanner {
+    margin: 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: #e8e8e8;
+    width: 100%;
+  }
+
+  .headBanner > h1 {
+    margin: 0;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .headBanner > p {
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 30px;
+  }
+
+  .btnDonate {
+    width: 100%;
+    margin-top: 30px;
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .header {
+    width: 100%;
+    height: 100%;
+    background-color: #c32424;
+    margin: 0;
+  }
+
+  .headBanner {
+    margin: 0;
+    color: #e8e8e8;
+    width: 100%;
+  }
+
+  .headBanner > h1 {
+    margin: 0;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .headBanner > p {
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 20px;
+  }
+
+  .btnDonate {
+    width: 100%;
+    margin-top: 20px;
+    background: #e8e8e8;
+    border: none;
+    color: #c32424;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+  }
+}

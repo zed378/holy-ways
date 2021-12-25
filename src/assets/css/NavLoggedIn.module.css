@@ -1,0 +1,186 @@
+.navbarTop {
+  width: 100%;
+  background-color: #c32424;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 100px;
+}
+
+.hollyLogo {
+  max-width: 100px;
+}
+
+.profileWrapper {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border: solid 3px white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 50px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border: solid 3px white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 50px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: solid 3px white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 50px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border: solid 3px white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 50px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border: solid 2px white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 40px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border: solid 2px white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbarTop {
+    width: 100%;
+    background-color: #c32424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 30px;
+  }
+
+  .hollyLogo {
+    max-width: 60px;
+  }
+
+  .profileWrapper {
+    display: inline-block;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border: solid 2px white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

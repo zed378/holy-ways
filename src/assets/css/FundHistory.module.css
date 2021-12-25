@@ -1,0 +1,902 @@
+.history {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 50px 175px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.title > button {
+  background: #c32424;
+  border: none;
+  color: white;
+  font-family: avenir;
+  font-weight: 900;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+.cardDonate {
+  background: #ffffff;
+  width: 412px;
+  padding-bottom: 30px;
+}
+
+.image {
+  width: 412px;
+}
+
+.cardDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 22.5px;
+  gap: 10px;
+}
+
+.cardDesc > h1 {
+  font-family: Product;
+  font-size: 1.85rem;
+  margin: 0;
+}
+
+.cardDesc > p {
+  color: #616161;
+}
+
+.progressbar {
+  background-color: rgb(214, 214, 214);
+  border-radius: 13px;
+}
+
+.progressbar > div {
+  background-color: #c32424;
+  height: 15px;
+  border-radius: 10px;
+}
+
+.totalDonation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.totalDonation > p {
+  width: auto;
+  font-weight: bolder;
+}
+
+.totalDonation > .cardBtn {
+  font-family: avenir;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  height: 2.25rem;
+  background: #c32424;
+  color: #e8e8e8;
+  padding: 0 35px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1366px) {
+  .history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 100px 50px 100px;
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .title > button {
+    background: #c32424;
+    border: none;
+    color: white;
+    font-family: avenir;
+    font-weight: 900;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .fundHistory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .cardDonate {
+    background: #ffffff;
+    width: 30%;
+    padding-bottom: 20px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cardDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 22.5px;
+    gap: 10px;
+  }
+
+  .cardDesc > h1 {
+    font-family: Product;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .cardDesc > p {
+    color: #616161;
+  }
+
+  .progressbar {
+    background-color: rgb(214, 214, 214);
+    border-radius: 13px;
+  }
+
+  .progressbar > div {
+    background-color: #c32424;
+    height: 0.75rem;
+    border-radius: 10px;
+  }
+
+  .totalDonation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .totalDonation > p {
+    width: auto;
+    font-weight: bolder;
+  }
+
+  .totalDonation > .cardBtn {
+    font-family: avenir;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    height: 2rem;
+    background: #c32424;
+    color: #e8e8e8;
+    padding: 0 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 50px 50px 50px;
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .title > button {
+    background: #c32424;
+    border: none;
+    color: white;
+    font-family: avenir;
+    font-weight: 900;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .fundHistory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .cardDonate {
+    background: #ffffff;
+    width: 30%;
+    padding-bottom: 20px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cardDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 22.5px;
+    gap: 8px;
+  }
+
+  .cardDesc > h1 {
+    font-family: Product;
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .cardDesc > p {
+    color: #616161;
+    font-size: 0.85rem;
+  }
+
+  .progressbar {
+    background-color: rgb(214, 214, 214);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+  }
+
+  .progressbar > div {
+    background-color: #c32424;
+    height: 0.65rem;
+    border-radius: 10px;
+  }
+
+  .totalDonation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .totalDonation > p {
+    font-weight: bolder;
+  }
+
+  .totalDonation > .cardBtn {
+    font-family: avenir;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    background: #c32424;
+    color: #e8e8e8;
+    padding: 5px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 50px 50px 50px;
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .title > h1 {
+    font-size: 1.75rem;
+  }
+
+  .title > button {
+    background: #c32424;
+    border: none;
+    color: white;
+    font-family: avenir;
+    font-weight: 900;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .fundHistory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .cardDonate {
+    background: #ffffff;
+    width: 30%;
+    padding-bottom: 20px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cardDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 22.5px;
+    gap: 8px;
+  }
+
+  .cardDesc > h1 {
+    font-family: Product;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .cardDesc > p {
+    color: #616161;
+    font-size: 0.75rem;
+  }
+
+  .progressbar {
+    background-color: rgb(214, 214, 214);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+  }
+
+  .progressbar > div {
+    background-color: #c32424;
+    height: 0.55rem;
+    border-radius: 10px;
+  }
+
+  .totalDonation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .totalDonation > p {
+    font-weight: bolder;
+  }
+
+  .totalDonation > .cardBtn {
+    font-family: avenir;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    background: #c32424;
+    color: #e8e8e8;
+    padding: 5px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 50px 50px 50px;
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .title > h1 {
+    font-size: 1.75rem;
+  }
+
+  .title > button {
+    background: #c32424;
+    border: none;
+    color: white;
+    font-family: avenir;
+    font-weight: 900;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .fundHistory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .cardDonate {
+    background: #ffffff;
+    width: 30%;
+    padding-bottom: 20px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cardDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 15px;
+    gap: 5px;
+  }
+
+  .cardDesc > h1 {
+    font-family: Product;
+    font-size: 0.85rem;
+    margin: 0;
+  }
+
+  .cardDesc > p {
+    color: #616161;
+    font-size: 0.75rem;
+  }
+
+  .progressbar {
+    background-color: rgb(214, 214, 214);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+  }
+
+  .progressbar > div {
+    background-color: #c32424;
+    height: 0.55rem;
+    border-radius: 10px;
+  }
+
+  .totalDonation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .totalDonation > p {
+    font-weight: bolder;
+  }
+
+  .totalDonation > .cardBtn {
+    font-family: avenir;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    background: #c32424;
+    color: #e8e8e8;
+    padding: 5px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 50px 50px 50px;
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .title > h1 {
+    font-size: 1.75rem;
+  }
+
+  .title > button {
+    background: #c32424;
+    border: none;
+    color: white;
+    font-family: avenir;
+    font-weight: 900;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .fundHistory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .cardDonate {
+    background: #ffffff;
+    width: 45%;
+    padding-bottom: 20px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cardDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 15px;
+    gap: 5px;
+  }
+
+  .cardDesc > h1 {
+    font-family: Product;
+    font-size: 0.85rem;
+    margin: 0;
+  }
+
+  .cardDesc > p {
+    color: #616161;
+    font-size: 0.75rem;
+  }
+
+  .progressbar {
+    background-color: rgb(214, 214, 214);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+  }
+
+  .progressbar > div {
+    background-color: #c32424;
+    height: 0.55rem;
+    border-radius: 10px;
+  }
+
+  .totalDonation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .totalDonation > p {
+    font-weight: bolder;
+  }
+
+  .totalDonation > .cardBtn {
+    font-family: avenir;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    background: #c32424;
+    color: #e8e8e8;
+    padding: 5px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 50px 50px 50px;
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .title > h1 {
+    font-size: 1.75rem;
+  }
+
+  .title > button {
+    background: #c32424;
+    border: none;
+    color: white;
+    font-family: avenir;
+    font-weight: 900;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .fundHistory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .cardDonate {
+    background: #ffffff;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cardDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 15px;
+    gap: 5px;
+  }
+
+  .cardDesc > h1 {
+    font-family: Product;
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .cardDesc > p {
+    color: #616161;
+    font-size: 0.9rem;
+  }
+
+  .progressbar {
+    background-color: rgb(214, 214, 214);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+  }
+
+  .progressbar > div {
+    background-color: #c32424;
+    height: 0.65rem;
+    border-radius: 10px;
+  }
+
+  .totalDonation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .totalDonation > p {
+    font-weight: bolder;
+    font-size: 1.15rem;
+  }
+
+  .totalDonation > .cardBtn {
+    font-family: avenir;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    background: #c32424;
+    color: #e8e8e8;
+    padding: 5px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .title > h1 {
+    font-size: 1.25rem;
+  }
+
+  .title > button {
+    background: #c32424;
+    border: none;
+    color: white;
+    font-family: avenir;
+    font-weight: 900;
+    font-size: 0.75rem;
+    padding: 8px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .fundHistory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .cardDonate {
+    background: #ffffff;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .cardDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 15px;
+    gap: 5px;
+  }
+
+  .cardDesc > h1 {
+    font-family: Product;
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .cardDesc > p {
+    color: #616161;
+    font-size: 0.9rem;
+  }
+
+  .progressbar {
+    background-color: rgb(214, 214, 214);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+  }
+
+  .progressbar > div {
+    background-color: #c32424;
+    height: 0.65rem;
+    border-radius: 10px;
+  }
+
+  .totalDonation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .totalDonation > p {
+    font-weight: bolder;
+    font-size: 1.15rem;
+  }
+
+  .totalDonation > .cardBtn {
+    font-family: avenir;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    background: #c32424;
+    color: #e8e8e8;
+    padding: 5px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+}

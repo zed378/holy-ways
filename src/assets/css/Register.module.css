@@ -1,0 +1,687 @@
+.regModal {
+  position: absolute;
+  top: 20%;
+  z-index: 9;
+}
+
+.regContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.loginCard {
+  height: 480px;
+  width: 416px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px 40px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.loginCard > h1 {
+  margin: 0 0 15px 0;
+  font-size: 2.5rem;
+}
+
+.loginCard > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+form > .inputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+form > .inputGroup > input {
+  height: 3rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+  padding: 0 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 2px solid #bcbcbc;
+  background-color: rgba(210, 210, 210, 0.25);
+  outline: none;
+  margin-bottom: 25px;
+}
+
+form > button {
+  height: 3rem;
+  background-color: #c32424;
+  color: white;
+  font-size: 1rem;
+  font-weight: 900;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.loginCard > a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.loginCard > a > p {
+  text-align: center;
+  font-family: avenir;
+}
+
+.loginCard > p {
+  color: #333333;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .regModal {
+    position: absolute;
+    top: 8%;
+    z-index: 9;
+  }
+
+  .regContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .loginCard {
+    height: 480px;
+    width: 416px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 40px;
+  }
+
+  .loginCard > h1 {
+    margin: 0 0 15px 0;
+    font-size: 2.5rem;
+  }
+
+  .loginCard > form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  form > .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form > .inputGroup > input {
+    height: 3rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 0 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #bcbcbc;
+    background-color: rgba(210, 210, 210, 0.25);
+    outline: none;
+    margin-bottom: 25px;
+  }
+
+  form > button {
+    height: 3rem;
+    background-color: #c32424;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .loginCard > a {
+    text-decoration: none;
+    color: #333333;
+  }
+
+  .loginCard > a > p {
+    text-align: center;
+    font-family: avenir;
+  }
+
+  .loginCard > p {
+    color: #333333;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .regModal {
+    position: absolute;
+    top: 8%;
+    z-index: 9;
+  }
+
+  .regContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .loginCard {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 40px;
+  }
+
+  .btnClose {
+    background: "none";
+    border: "none";
+    position: "absolute";
+    right: 10;
+    top: 10;
+    color: "#313131";
+  }
+
+  .loginCard > h1 {
+    margin: 0 0 10px 0;
+    font-size: 2rem;
+  }
+
+  .loginCard > form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  form > .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form > .inputGroup > input {
+    height: 3rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 0 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #bcbcbc;
+    background-color: rgba(210, 210, 210, 0.25);
+    outline: none;
+    margin-bottom: 15px;
+  }
+
+  form > button {
+    height: 2.5rem;
+    background-color: #c32424;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .loginCard > a {
+    text-decoration: none;
+    color: #333333;
+  }
+
+  .loginCard > a > p {
+    text-align: center;
+    font-family: avenir;
+  }
+
+  .loginCard > p {
+    color: #333333;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .regModal {
+    position: absolute;
+    top: 8%;
+    z-index: 9;
+  }
+
+  .regContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .loginCard {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 40px;
+  }
+
+  .btnClose {
+    background: "none";
+    border: "none";
+    position: "absolute";
+    right: 10;
+    top: 10;
+    color: "#313131";
+  }
+
+  .loginCard > h1 {
+    margin: 0 0 10px 0;
+    font-size: 2rem;
+  }
+
+  .loginCard > form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  form > .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form > .inputGroup > input {
+    height: 3rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 0 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #bcbcbc;
+    background-color: rgba(210, 210, 210, 0.25);
+    outline: none;
+    margin-bottom: 15px;
+  }
+
+  form > button {
+    height: 2.5rem;
+    background-color: #c32424;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .loginCard > a {
+    text-decoration: none;
+    color: #333333;
+  }
+
+  .loginCard > a > p {
+    text-align: center;
+    font-family: avenir;
+  }
+
+  .loginCard > p {
+    color: #333333;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .regModal {
+    position: absolute;
+    top: 8%;
+    z-index: 9;
+  }
+
+  .regContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .loginCard {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 40px;
+  }
+
+  .btnClose {
+    background: "none";
+    border: "none";
+    position: "absolute";
+    right: 10;
+    top: 10;
+    color: "#313131";
+  }
+
+  .loginCard > h1 {
+    margin: 0 0 10px 0;
+    font-size: 2rem;
+  }
+
+  .loginCard > form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  form > .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form > .inputGroup > input {
+    height: 3rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 0 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #bcbcbc;
+    background-color: rgba(210, 210, 210, 0.25);
+    outline: none;
+    margin-bottom: 15px;
+  }
+
+  form > button {
+    height: 2.5rem;
+    background-color: #c32424;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .loginCard > a {
+    text-decoration: none;
+    color: #333333;
+  }
+
+  .loginCard > a > p {
+    text-align: center;
+    font-family: avenir;
+  }
+
+  .loginCard > p {
+    color: #333333;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .regModal {
+    position: absolute;
+    top: 12.5%;
+    z-index: 9;
+  }
+
+  .regContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .loginCard {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 40px;
+  }
+
+  .btnClose {
+    background: "none";
+    border: "none";
+    position: "absolute";
+    right: 10;
+    top: 10;
+    color: "#313131";
+  }
+
+  .loginCard > h1 {
+    margin: 0 0 10px 0;
+    font-size: 2rem;
+  }
+
+  .loginCard > form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  form > .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form > .inputGroup > input {
+    height: 3rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 0 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #bcbcbc;
+    background-color: rgba(210, 210, 210, 0.25);
+    outline: none;
+    margin-bottom: 15px;
+  }
+
+  form > button {
+    height: 2.5rem;
+    background-color: #c32424;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .loginCard > a {
+    text-decoration: none;
+    color: #333333;
+  }
+
+  .loginCard > a > p {
+    text-align: center;
+    font-family: avenir;
+  }
+
+  .loginCard > p {
+    color: #333333;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .regModal {
+    position: absolute;
+    top: 12.5%;
+    z-index: 9;
+  }
+
+  .regContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .loginCard {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 30px;
+  }
+
+  .btnClose {
+    background: "none";
+    border: "none";
+    position: "absolute";
+    right: 10;
+    top: 10;
+    color: "#313131";
+  }
+
+  .loginCard > h1 {
+    margin: 0 0 10px 0;
+    font-size: 2rem;
+  }
+
+  .loginCard > form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  form > .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form > .inputGroup > input {
+    height: 3rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 0 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #bcbcbc;
+    background-color: rgba(210, 210, 210, 0.25);
+    outline: none;
+    margin-bottom: 15px;
+  }
+
+  form > button {
+    height: 2.5rem;
+    background-color: #c32424;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .loginCard > a {
+    text-decoration: none;
+    color: #333333;
+  }
+
+  .loginCard > a > p {
+    text-align: center;
+    font-family: avenir;
+  }
+
+  .loginCard > p {
+    color: #333333;
+    text-align: center;
+    cursor: pointer;
+  }
+}

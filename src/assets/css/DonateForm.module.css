@@ -1,0 +1,719 @@
+.formWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.formContainer {
+  display: block;
+  position: absolute;
+  top: 20%;
+  width: 27.5%;
+}
+
+.donateForm {
+  background: white;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 45px 25px 25px 25px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.btnClose {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.donateForm > form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.donateForm > form > .grouping {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.grouping > input {
+  height: 3rem;
+}
+
+.groupElem {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.groupElem > label {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #c32424;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 900;
+  font-family: avenir;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.groupElem > label > img {
+  height: 30px;
+}
+
+.groupElem > p {
+  color: #616161;
+  font-size: small;
+}
+
+@media only screen and (max-width: 1366px) {
+  .formWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .formContainer {
+    display: block;
+    position: absolute;
+    top: 20%;
+    width: 40%;
+  }
+
+  .donateForm {
+    background: white;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 45px 25px 25px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .btnClose {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  .donateForm > form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .donateForm > form > .grouping {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grouping > input {
+    height: 3rem;
+  }
+
+  .groupElem {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .groupElem > label {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c32424;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 900;
+    font-family: avenir;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
+  }
+
+  .groupElem > label > img {
+    height: 30px;
+  }
+
+  .groupElem > p {
+    color: #616161;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .formWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .formContainer {
+    display: block;
+    position: absolute;
+    top: 20%;
+    width: 52.5%;
+  }
+
+  .donateForm {
+    background: white;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 45px 25px 25px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .btnClose {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  .donateForm > form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .donateForm > form > .grouping {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grouping > input {
+    height: 3rem;
+  }
+
+  .groupElem {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .groupElem > label {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c32424;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 900;
+    font-family: avenir;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
+  }
+
+  .groupElem > label > img {
+    height: 30px;
+  }
+
+  .groupElem > p {
+    color: #616161;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .formWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .formContainer {
+    display: block;
+    position: absolute;
+    top: 20%;
+    width: 60%;
+  }
+
+  .donateForm {
+    background: white;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 45px 25px 25px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .btnClose {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  .donateForm > form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .donateForm > form > .grouping {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grouping > input {
+    height: 3rem;
+  }
+
+  .groupElem {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .groupElem > label {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c32424;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 900;
+    font-family: avenir;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
+  }
+
+  .groupElem > label > img {
+    height: 25px;
+  }
+
+  .groupElem > p {
+    color: #616161;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .formWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .formContainer {
+    display: block;
+    position: absolute;
+    top: 20%;
+    width: 70%;
+  }
+
+  .donateForm {
+    background: white;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 45px 25px 25px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .btnClose {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  .donateForm > form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .donateForm > form > .grouping {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grouping > input {
+    height: 3rem;
+  }
+
+  .groupElem {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .groupElem > label {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c32424;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 900;
+    font-family: avenir;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
+  }
+
+  .groupElem > label > img {
+    height: 25px;
+  }
+
+  .groupElem > p {
+    color: #616161;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .formWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .formContainer {
+    display: block;
+    position: absolute;
+    top: 20%;
+    width: 85%;
+  }
+
+  .donateForm {
+    background: white;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 45px 25px 25px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .btnClose {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  .donateForm > form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .donateForm > form > .grouping {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grouping > input {
+    height: 3rem;
+  }
+
+  .groupElem {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .groupElem > label {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c32424;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 900;
+    font-family: avenir;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
+  }
+
+  .groupElem > label > img {
+    height: 20px;
+  }
+
+  .groupElem > p {
+    color: #616161;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .formWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .formContainer {
+    display: block;
+    position: absolute;
+    top: 20%;
+    width: 85%;
+  }
+
+  .donateForm {
+    background: white;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 45px 25px 25px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .btnClose {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  .donateForm > form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .donateForm > form > .grouping {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grouping > input {
+    height: 3rem;
+  }
+
+  .groupElem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .groupElem > label {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c32424;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 900;
+    font-family: avenir;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
+  }
+
+  .groupElem > label > img {
+    height: 25px;
+  }
+
+  .groupElem > p {
+    color: #616161;
+    font-size: small;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .formWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .formContainer {
+    display: block;
+    position: absolute;
+    top: 20%;
+    width: 90%;
+  }
+
+  .donateForm {
+    background: white;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 45px 25px 25px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .btnClose {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  .donateForm > form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .donateForm > form > .grouping {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grouping > input {
+    height: 3rem;
+  }
+
+  .groupElem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .groupElem > label {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c32424;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 900;
+    font-family: avenir;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
+  }
+
+  .groupElem > label > img {
+    height: 25px;
+  }
+
+  .groupElem > p {
+    color: #616161;
+    font-size: small;
+    margin: 0;
+  }
+}
